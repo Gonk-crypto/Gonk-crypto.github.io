@@ -1,0 +1,46 @@
+body {
+    background-color: #343a40;
+    /* 343a40 color of navbar */
+    /* 23374d
+    1089ff */
+}
+
+.shadow {
+    box-shadow: 5px 10px 15px grey;
+}
+
+.jumbotron-static {
+    position:relative;
+    margin-bottom:100px;
+    background:linear-gradient(rgb(38, 45, 46), rgb(16, 59, 59));
+}
+
+.ing-circle {
+    box-shadow: 5px 10px 15px grey;
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    z-index: 1000;
+    position: absolute;
+    left: calc(50vw - 75px);
+    bottom:-75px;
+    /* transition: background-color 1s linear; */
+    background-image: url("Images/circular.jpg");
+    background-size:cover;
+}
+.ing-circle:hover {
+    background-color: azure;
+    
+}
+
+.hero-img{
+    display: block;
+    position: absolute;
+    left: -37px;
+    top: -26px;
+
+}
+
+.contain {
+    background-color:whitesmoke;
+}
